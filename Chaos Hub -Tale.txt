@@ -51,7 +51,7 @@ local Button = Tab:CreateButton({
  
 
  local Button = Tab:CreateButton({
-    Name = "Button Example",
+    Name = "Owl Hub Aimbot",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
     end,
