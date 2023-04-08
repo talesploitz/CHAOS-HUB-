@@ -34,7 +34,7 @@ local Tab = Window:CreateTab("Chaos", 4483362458) -- Title, Image
 local Section = Tab:CreateSection("Chaos")
 
 local Button = Tab:CreateButton({
-    Name = "Minigun,Sniper,Lock",
+    Name = "Minigun, Sniper, Lock",
     Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/1111-ssss/Chaos_Script/main/Chaos_script.txt'))()
     end,
