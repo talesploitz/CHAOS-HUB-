@@ -92,8 +92,55 @@ local Button = Tab:CreateButton({
 
 
 
+ local Button = Tab:CreateButton({
+   Name = "FE R6 Car",
+   Callback = function()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+   end,
+})
 
 
+
+local Button = Tab:CreateButton({
+   Name = "FE Nameless V4 animations",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/QjRT7sy2"))()
+   end,
+})
+
+
+
+
+local Button = Tab:CreateButton({
+   Name = "Kater trolling gui",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/KATERGaming/Roblox/main/KaterHub.Lua"))()
+   end,
+})
+
+
+--Script below dissapears on death.
+
+local Button = Tab:CreateButton({
+   Name = "Energize Animation Gui",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/R1MgDiRX", true))()
+   end,
+})
+
+
+
+local Button = Tab:CreateButton({
+   Name = "Permanent Energize Gui",
+   Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/RmD3qNp7", true))()
+   end,
+})
+
+
+
+--This one is the permanent GUI, doesnt dissapear on death
+--Goodluck, and remember spam tdb are twinks
 
 
 
